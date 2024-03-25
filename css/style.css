@@ -52,7 +52,10 @@ body {
 .debug .testimonials,
 .debug .content-testimonials,
 .debug .card-testimonials,
-.debug .benefits {
+.debug .benefits,
+.debug .about-us,
+.debug .content-about-us,
+.debug .card-about-us {
     border: 2px dashed black;
 }
 
@@ -197,3 +200,31 @@ header a {
     padding: 0 2rem;
 }
 /************* FINE CSS SECTION BENEFITS *************/
+
+/************* CSS SECTION ABOUT-US *************/
+.about-us .flex {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about-us {
+    padding: 4rem 2rem;
+    line-height: 1.5rem;
+}
+
+.content-about-us *,
+.card-about-us * {
+    padding: 1.5rem 2rem;
+}
+
+.card-about-us div * {
+    padding: 0;
+}
+
+.card-about-us a {
+    padding: 0.5rem;
+    background-color: #9792E4;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
