@@ -41,7 +41,10 @@ body {
 .debug .card,
 .debug .strategic-planning,
 .debug .content-planning,
-.debug .bg-white {
+.debug .bg-white,
+.debug .testimonials,
+.debug .content-testimonials,
+.debug .card-testimonials {
     border: 2px dashed black;
 }
 
@@ -81,6 +84,7 @@ header a {
     background-color: #B5DDFF;
     padding: 2rem 2rem;
     line-height: 1.5rem;
+    border-radius: 50px;
 }
 
 .demo-application .card * {
@@ -100,12 +104,17 @@ header a {
     line-height: 1.5rem;
 }
 
+.strategic-planning .flex {
+    flex-direction: column;
+}
+
 .strategic-planning * {
     padding: 1rem;
 }
 
 .strategic-planning .bg-white {
     color: black;
+    border-radius: 50px;
 }
 
 .strategic-planning span.circle {
@@ -118,4 +127,30 @@ header a {
 
 .strategic-planning span.circle i {
     transform: translate(-30%, -20%);
+}
+/************* FINE CSS SECTION STRATEGIC PLANNING *************/
+
+/************* CSS SECTION TESTIMONIALS *************/
+.testimonials {
+    padding: 4rem 2rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.testimonials .flex {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.testimonials * {
+    padding: 1rem;
+}
+
+.testimonials h2 {
+    color: #9792E4;
+}
+
+.testimonials .card-testimonials {
+    color: white;
+    border-radius: 50px;
 }
