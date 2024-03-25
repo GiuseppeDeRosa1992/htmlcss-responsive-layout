@@ -9,8 +9,37 @@ body {
     font-family: sans-serif;
 }
 
+/****************** CSS UTILI ********************/
+.flex{
+    display: flex;
+}
+
+.jc-between {
+    justify-content: space-between;
+}
+
+.d-none {
+    display: none;
+}
+
+
+.debug header,
+.debug header nav {
+    border: 2px dashed black;
+}
+
 /********************** CONTAINER PER MOBILE E TABLET ********/
 .container {
     max-width: 100%;
+}
+
+/****************** CSS HEADER ******************/
+header.bg-l-blue {
+    background-color: #0084FD;
+    padding: 1rem;
+}
+
+header a {
+    color: white;
 }
 
