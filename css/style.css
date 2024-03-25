@@ -48,6 +48,10 @@ body {
     color: #9792E4;
 }
 
+.bg-black {
+    background-color: black;
+}
+
 .debug header,
 .debug header nav,
 .debug .demo-application,
@@ -233,3 +237,22 @@ header a {
     border-radius: 20px;
 }
 /************* FINE CSS SECTION GET STARTED *************/
+
+/**************** CSS FOOTER *******************/
+footer {
+    color: white;
+}
+
+.content-footer {
+    padding: 2rem 2rem;
+    line-height: 1.5rem;
+}
+
+.content-footer * {
+    padding: 3rem 0;
+}
+
+.content-footer span {
+    text-decoration: underline;
+    color: #0084FD;
+}
