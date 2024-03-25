@@ -109,6 +109,11 @@ header a {
     padding: 1rem;
 }
 
+.demo-application a {
+    background-color: #0084FD;
+    border-radius: 20px;
+}
+
 .demo-application .card a > i{
     color: white;
     text-align: center;
@@ -274,6 +279,11 @@ footer {
         width: calc(100% / 3 - 1rem);
     }
 
+    .testimonials .card-testimonials {
+        flex-direction: row;
+        text-align: left;
+    }
+
     .benefits .flex {
         flex-direction: row;
         justify-content: space-between;
@@ -292,5 +302,46 @@ footer {
         flex-direction: row;
         justify-content: space-between;
     }
-    
+
+ }
+
+ @media screen and (min-width:1100px) {
+    .container {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .d-none {
+        display: block;
+    }
+
+    .d-block {
+        display: none;
+    }
+
+    header ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    header li {
+        padding: 0 1rem;
+    }
+
+    .strategic-planning .flex {
+        flex-direction: row;
+    }
+
+    .testimonials .card-testimonials {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .benefits .card-benefits {
+        width: calc(100% / 3 - 1rem);
+    }
+
+    .benefits h2 {
+        width: 100%;
+    }
  }
