@@ -22,9 +22,15 @@ body {
     display: none;
 }
 
+.ta-center {
+    text-align: center;
+}
+
 
 .debug header,
-.debug header nav {
+.debug header nav,
+.debug .demo-application,
+.debug .card {
     border: 2px dashed black;
 }
 
@@ -43,3 +49,34 @@ header a {
     color: white;
 }
 
+/**************** CSS MAIN ******************/
+
+/************* CSS SECTION DEMO APPLICATION *************/
+.demo-application {
+    padding: 4rem 2rem;
+}
+
+.demo-application > .flex {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.demo-application h3,
+.demo-application i {
+    color: #0C89FD;
+}
+
+.demo-application .card {
+    background-color: #B5DDFF;
+    padding: 2rem 2rem;
+    line-height: 1.5rem;
+}
+
+.demo-application .card * {
+    padding: 1rem;
+}
+
+.demo-application .card a > i{
+    color: white;
+    text-align: center;
+}
