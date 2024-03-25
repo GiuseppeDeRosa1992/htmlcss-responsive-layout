@@ -26,11 +26,22 @@ body {
     text-align: center;
 }
 
+.bg-violet {
+    background-color: #9792E4;
+}
+
+.bg-white {
+    background-color: white;
+}
+
 
 .debug header,
 .debug header nav,
 .debug .demo-application,
-.debug .card {
+.debug .card,
+.debug .strategic-planning,
+.debug .content-planning,
+.debug .bg-white {
     border: 2px dashed black;
 }
 
@@ -79,4 +90,32 @@ header a {
 .demo-application .card a > i{
     color: white;
     text-align: center;
+}
+/************* FINE CSS SECTION DEMO APPLICATION *************/
+
+/************* CSS SECTION STRATEGIC PLANNING *************/
+.strategic-planning {
+    padding: 4rem 2rem;
+    color: white;
+    line-height: 1.5rem;
+}
+
+.strategic-planning * {
+    padding: 1rem;
+}
+
+.strategic-planning .bg-white {
+    color: black;
+}
+
+.strategic-planning span.circle {
+    display: inline-block;
+    background-color: #9792E4;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.strategic-planning span.circle i {
+    transform: translate(-30%, -20%);
 }
