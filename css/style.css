@@ -79,7 +79,7 @@ body {
 /****************** CSS HEADER ******************/
 header.bg-l-blue {
     background-color: #0084FD;
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 header a {
@@ -256,3 +256,41 @@ footer {
     text-decoration: underline;
     color: #0084FD;
 }
+
+
+/******************* CSS RESPONSIVE TABLET ****************/
+ @media screen and (min-width: 768px) {
+    .demo-application .flex {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .demo-application .card.double {
+        width: calc(100% / 3 * 2 - 0.5rem);
+    }
+
+    .demo-application .card {
+        width: calc(100% / 3 - 1rem);
+    }
+
+    .benefits .flex {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .benefits .card-benefits {
+        width: calc(100% / 2 - 1rem);
+    }
+
+    .benefits h2 {
+        width: 100%;
+    }
+
+    .about-us .flex {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+ }
