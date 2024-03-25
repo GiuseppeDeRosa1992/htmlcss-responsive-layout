@@ -12,6 +12,12 @@ body {
 /****************** CSS UTILI ********************/
 .flex{
     display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.fd-row {
+    flex-direction: row;
 }
 
 .jc-between {
@@ -55,7 +61,9 @@ body {
 .debug .benefits,
 .debug .about-us,
 .debug .content-about-us,
-.debug .card-about-us {
+.debug .card-about-us,
+.debug .get-started,
+.debug .content-get-started {
     border: 2px dashed black;
 }
 
@@ -79,11 +87,6 @@ header a {
 /************* CSS SECTION DEMO APPLICATION *************/
 .demo-application {
     padding: 4rem 2rem;
-}
-
-.demo-application > .flex {
-    flex-direction: column;
-    gap: 1rem;
 }
 
 .demo-application h3,
@@ -115,10 +118,6 @@ header a {
     line-height: 1.5rem;
 }
 
-.strategic-planning .flex {
-    flex-direction: column;
-}
-
 .strategic-planning * {
     padding: 1rem;
 }
@@ -148,11 +147,6 @@ header a {
     text-align: center;
 }
 
-.testimonials .flex {
-    flex-direction: column;
-    gap: 1rem;
-}
-
 .testimonials * {
     padding: 1rem;
 }
@@ -167,11 +161,6 @@ header a {
 .benefits {
     padding: 4rem 2rem;
     line-height: 1.5rem;
-}
-
-.benefits .flex {
-    flex-direction: column;
-    gap: 1rem;
 }
 
 .benefits .card-benefits{
@@ -202,11 +191,6 @@ header a {
 /************* FINE CSS SECTION BENEFITS *************/
 
 /************* CSS SECTION ABOUT-US *************/
-.about-us .flex {
-    flex-direction: column;
-    gap: 1rem;
-}
-
 .about-us {
     padding: 4rem 2rem;
     line-height: 1.5rem;
@@ -228,3 +212,24 @@ header a {
     text-decoration: none;
     border-radius: 20px;
 }
+/************* FINE CSS SECTION ABOUT-US *************/
+
+/************* CSS SECTION GET STARTED *************/
+.get-started {
+    padding: 4rem 2rem;
+    line-height: 1.5rem;
+    color: white;
+}
+
+.content-get-started * {
+    padding: 1.5rem 2rem;
+}
+
+.content-get-started div a {
+    padding: 1rem 2rem;
+    background-color: white;
+    color: #9792E4;
+    text-decoration: none;
+    border-radius: 20px;
+}
+/************* FINE CSS SECTION GET STARTED *************/
