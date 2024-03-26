@@ -68,7 +68,6 @@ body {
 
 img {
     width: 100%;
-    height: 100%;
 }
 
 /********************** CONTAINER PER MOBILE E TABLET ********/
@@ -133,6 +132,11 @@ header li {
 
 .demo-application .card .pdn-0 {
     padding: 0;
+}
+
+.demo-application .p-relative {
+    position: relative;
+    top: 7px;
 }
 
 .demo-application a {
