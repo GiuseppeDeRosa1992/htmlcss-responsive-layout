@@ -243,6 +243,18 @@ header .bg-white {
 .about-us span {
     font-size: 0.8rem;
 }
+
+.about-us div.p-relative {
+    position: relative;
+}
+
+.about-us div > i {
+    position: absolute;
+    transform: scale(3);
+    color: #9792E4;
+    top: 20px;
+    left: 120px;
+}
 /************* FINE CSS SECTION ABOUT-US *************/
 
 /************* CSS SECTION GET STARTED *************/
