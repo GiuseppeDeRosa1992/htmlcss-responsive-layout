@@ -92,6 +92,19 @@ header .bg-white {
     color: black;
     text-decoration: none;
 }
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header li {
+    padding: 0 1rem;
+}
 /**************** CSS MAIN ******************/
 
 /************* CSS SECTION DEMO APPLICATION *************/
@@ -346,10 +359,6 @@ footer {
         justify-content: space-between;
     }
 
-    .about-us p {
-        padding-right: 15rem;
-    }
-
     .get-started .container {
         width: 400px;
         margin: 0 auto;
@@ -376,23 +385,6 @@ footer {
         display: none;
     }
 
-    header ul {
-        display: flex;
-        list-style-type: none;
-    }
-
-    header a {
-        text-decoration: none;
-    }
-
-    header li {
-        padding: 0 1rem;
-    }
-
-    .demo-application .card.double.flex {
-        flex-direction: row;
-    }
-
     .demo-application .card.double.flex > div {
         width: calc(100% / 2 - 1rem);
     }
@@ -412,20 +404,7 @@ footer {
         padding: 0 7rem;
     }
 
-    .testimonials .card-testimonials {
-        flex-direction: row;
-        text-align: left;
-    }
-
     .benefits .card-benefits {
         width: calc(100% / 3 - 1rem);
-    }
-
-    .benefits h2 {
-        width: 100%;
-    }
-
-    .about-us p {
-        padding-right: 0;
     }
  }
