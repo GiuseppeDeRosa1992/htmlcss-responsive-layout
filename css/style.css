@@ -67,9 +67,6 @@ img {
     height: 100%;
 }
 
-.debug .testimonials,
-.debug .content-testimonials,
-.debug .card-testimonials,
 .debug .benefits,
 .debug .about-us,
 .debug .content-about-us,
@@ -156,16 +153,10 @@ header .bg-white {
     border-radius: 50px;
 }
 
-.strategic-planning .pdn-0 {
-    padding: 0;
-}
-
 .strategic-planning .content-planning,
 .strategic-planning .content-planning > div {
     padding: 0;
 }
-
-
 
 .strategic-planning span.circle {
     display: inline-block;
@@ -182,22 +173,19 @@ header .bg-white {
 
 /************* CSS SECTION TESTIMONIALS *************/
 .testimonials {
-    padding: 4rem 2rem;
+    padding: 2rem 1rem;
     line-height: 1.5rem;
     text-align: center;
 }
 
-.testimonials * {
-    padding: 1rem;
-}
-
 .testimonials .card-testimonials {
+    padding: 1rem;
     color: white;
     border-radius: 50px;
 }
 
-.testimonials .pdn-0 {
-    padding: 0;
+.testimonials h5 {
+    padding: 1rem 0;
 }
 /************* FINE CSS SECTION TESTIMONIALS *************/
 
