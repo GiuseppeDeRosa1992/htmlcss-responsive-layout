@@ -24,6 +24,10 @@ body {
     justify-content: space-between;
 }
 
+.ai-center {
+    align-items: center;
+}
+
 .d-none {
     display: none;
 }
@@ -50,6 +54,13 @@ body {
 
 .bg-black {
     background-color: black;
+}
+
+.img-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
 }
 
 .debug header,
@@ -86,6 +97,12 @@ header a {
     color: white;
 }
 
+header .bg-white {
+    padding: 0.5rem;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+}
 /**************** CSS MAIN ******************/
 
 /************* CSS SECTION DEMO APPLICATION *************/
@@ -241,6 +258,10 @@ header a {
     text-decoration: none;
     border-radius: 20px;
 }
+
+.content-get-started address a {
+    padding: 0;
+}
 /************* FINE CSS SECTION GET STARTED *************/
 
 /**************** CSS FOOTER *******************/
@@ -326,6 +347,14 @@ footer {
 
     header li {
         padding: 0 1rem;
+    }
+
+    .demo-application .card.double.flex {
+        flex-direction: row;
+    }
+
+    .demo-application .card.double.flex > div {
+        width: calc(100% / 2 - 1rem);
     }
 
     .strategic-planning .flex {

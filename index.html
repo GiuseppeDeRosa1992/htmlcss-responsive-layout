@@ -10,9 +10,9 @@
 <body class="debug">
     <!-- Intestazione Pagina con 2 div dentro flex con Logo e navbar -->
     <header class="bg-l-blue">
-        <div class="container flex fd-row jc-between">
+        <div class="container flex fd-row jc-between ai-center">
             <nav class="nav-left">
-                <img src="" alt="Logo" id="logo">
+                <img src="./img/logo.png" alt="Logo" id="logo">
             </nav>
             <nav class="nav-right">
                 <a href="#" class="d-block">
@@ -33,7 +33,7 @@
                             <a href="#">About Us</a>
                         </li>
                         <li>
-                            <a href="#" class="bg-white c-violet">Get Started</a>
+                            <a href="#" class="bg-white">Get Started</a>
                         </li>
                     </ul>
                 </div>
@@ -45,17 +45,19 @@
         <!-- Sezione Demo Application con 5 Card una il doppio delle altre -->
         <section class="demo-application">
             <div class="container flex">
-                <div class="card double">
-                    <h3>Get a demo application</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt dolorem temporibus nihil, beatae ratione ea eos voluptatum recusandae velit nulla, laboriosam obcaecati minus fugit itaque mollitia quis? Laudantium, totam repellat!
-                    </p>
+                <div class="card double flex">
                     <div>
+                        <h3>Get a demo application</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt dolorem temporibus nihil, beatae ratione ea eos voluptatum recusandae velit nulla, laboriosam obcaecati minus fugit itaque mollitia quis? Laudantium, totam repellat!
+                        </p>
                         <a href="#">
                             <i class="fa-brands fa-apple">App Store</i> 
                         </a>
                     </div>
-                    <img src="" alt="Travel">
+                    <div>
+                        <img src="" alt="Travel">
+                    </div>
                 </div>
                 <div class="card ta-center">
                     <i class="fa-solid fa-file-code fa-2xl"></i>
@@ -92,19 +94,23 @@
             <div class="container">
                 <div class="content-planning flex">
                     <div>
-                        <img src="" alt="Planning">
+                        <div>
+                            <img src="" alt="Planning">
+                        </div>
                         <h2>Strategic Planning</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quisquam rerum similique consequuntur sit, natus atque omnis, nulla quae repellendus earum non sint ad doloremque pariatur sed. Totam, velit repudiandae?
                         </p>
                     </div>
-                    <div class="bg-white">
-                        <img src="" alt="App-developement">
+                    <div class="bg-white ta-center">
+                        <div>
+                            <img src="" alt="App-developement">
+                        </div>
                         <h3>App Developement</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatem amet recusandae ad rerum delectus, quidem dolores facere quaerat saepe doloremque repellat sint nobis ipsam vel corporis, rem blanditiis fuga.
                         </p>
-                        <div class="ta-center">
+                        <div>
                             <span class="circle">
                                 <i class="fa-solid fa-arrow-down fa-xl"></i>
                             </span>
@@ -122,8 +128,8 @@
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur deserunt culpa porro reprehenderit corrupti architecto ut obcaecati nemo, voluptatibus impedit commodi nostrum quam atque aliquam amet assumenda cumque possimus sit.
                     </p>
-                    <div class="card-testimonials flex bg-violet">
-                        <div>
+                    <div class="card-testimonials flex bg-violet ai-center">
+                        <div class="img-circle">
                             <img src="" alt="Nat-Reynolds">
                         </div>
                         <div>
@@ -133,8 +139,8 @@
                             <h5>NAT REYNOLDS</h5>
                         </div>
                     </div>
-                    <div class="card-testimonials flex bg-violet">
-                        <div>
+                    <div class="card-testimonials flex bg-violet ai-center">
+                        <div class="img-circle">
                             <img src="" alt="Celia-Almeda">
                         </div>
                         <div>
@@ -144,8 +150,8 @@
                             <h5>CELIA ALMEDA</h5>
                         </div>
                     </div>
-                    <div class="card-testimonials flex bg-violet">
-                        <div>
+                    <div class="card-testimonials flex bg-violet ai-center">
+                        <div class="img-circle">
                             <img src="" alt="Bob-Roberts">
                         </div>
                         <div>
@@ -237,7 +243,9 @@
                     </p>
                 </div>
                 <div class="card-about-us">
-                    <img src="" alt="profilo-linkedin">
+                    <div class="img-circle">
+                        <img src="" alt="profilo-linkedin">
+                    </div>
                     <h3>I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio.</h3>
                     <div>
                         <a href="#" class="bg-violet">
