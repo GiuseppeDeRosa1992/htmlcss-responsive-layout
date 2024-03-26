@@ -60,7 +60,11 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-color: white;
+}
+
+img {
+    width: 100%;
+    height: 100%;
 }
 
 .debug header,
@@ -117,13 +121,17 @@ header .bg-white {
 
 .demo-application .card {
     background-color: #B5DDFF;
-    padding: 2rem 2rem;
+    padding: 2rem 2rem 0 2rem;
     line-height: 1.5rem;
     border-radius: 50px;
 }
 
 .demo-application .card * {
     padding: 1rem;
+}
+
+.demo-application .card .pdn-0 {
+    padding: 0;
 }
 
 .demo-application a {
@@ -153,6 +161,10 @@ header .bg-white {
     border-radius: 50px;
 }
 
+.strategic-planning .pdn-0 {
+    padding: 0;
+}
+
 .strategic-planning span.circle {
     display: inline-block;
     background-color: #9792E4;
@@ -180,6 +192,10 @@ header .bg-white {
 .testimonials .card-testimonials {
     color: white;
     border-radius: 50px;
+}
+
+.testimonials .pdn-0 {
+    padding: 0;
 }
 /************* FINE CSS SECTION TESTIMONIALS *************/
 
@@ -224,7 +240,7 @@ header .bg-white {
 
 .content-about-us *,
 .card-about-us * {
-    padding: 1.5rem 2rem;
+    padding: 0.5rem 2rem;
 }
 
 .card-about-us div * {
@@ -237,6 +253,10 @@ header .bg-white {
     color: white;
     text-decoration: none;
     border-radius: 20px;
+}
+
+.about-us span {
+    font-size: 0.8rem;
 }
 /************* FINE CSS SECTION ABOUT-US *************/
 
