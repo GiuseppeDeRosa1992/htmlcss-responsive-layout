@@ -67,9 +67,6 @@ img {
     height: 100%;
 }
 
-.debug .about-us,
-.debug .content-about-us,
-.debug .card-about-us,
 .debug .get-started,
 .debug .content-get-started {
     border: 2px dashed black;
@@ -223,13 +220,13 @@ header .bg-white {
 
 /************* CSS SECTION ABOUT-US *************/
 .about-us {
-    padding: 4rem 2rem;
+    padding: 2rem 1rem;
     line-height: 1.5rem;
 }
 
 .content-about-us *,
 .card-about-us * {
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 0;
 }
 
 .card-about-us div * {
@@ -333,6 +330,10 @@ footer {
         justify-content: space-between;
     }
 
+    .about-us p {
+        padding-right: 15rem;
+    }
+
  }
 
  @media screen and (min-width:1100px) {
@@ -396,5 +397,9 @@ footer {
 
     .benefits h2 {
         width: 100%;
+    }
+
+    .about-us p {
+        padding-right: 0;
     }
  }
