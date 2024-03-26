@@ -52,6 +52,10 @@ body {
     color: #9792E4;
 }
 
+.c-gray {
+    color: gray;
+}
+
 .bg-black {
     background-color: black;
 }
@@ -65,11 +69,6 @@ body {
 img {
     width: 100%;
     height: 100%;
-}
-
-.debug .get-started,
-.debug .content-get-started {
-    border: 2px dashed black;
 }
 
 /********************** CONTAINER PER MOBILE E TABLET ********/
@@ -248,13 +247,18 @@ header .bg-white {
 
 /************* CSS SECTION GET STARTED *************/
 .get-started {
-    padding: 4rem 2rem;
+    padding: 2rem 1rem;
     line-height: 1.5rem;
     color: white;
 }
 
+.get-started h2 {
+    color: #FDC15F;
+    font-size: 3rem;
+}
+
 .content-get-started * {
-    padding: 1.5rem 2rem;
+    padding: 1rem 0;
 }
 
 .content-get-started div a {
@@ -332,6 +336,16 @@ footer {
 
     .about-us p {
         padding-right: 15rem;
+    }
+
+    .get-started .container {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .footer .container {
+        width: 400px;
+        margin: 0 auto;
     }
 
  }
