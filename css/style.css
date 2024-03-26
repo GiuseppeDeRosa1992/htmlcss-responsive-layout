@@ -67,13 +67,8 @@ img {
     height: 100%;
 }
 
-.debug header,
-.debug header nav,
-.debug .demo-application,
-.debug .card,
 .debug .strategic-planning,
 .debug .content-planning,
-.debug .bg-white,
 .debug .testimonials,
 .debug .content-testimonials,
 .debug .card-testimonials,
@@ -119,9 +114,12 @@ header .bg-white {
     color: #0C89FD;
 }
 
+.demo-application i {
+    margin-top: 1rem;
+}
+
 .demo-application .card {
     background-color: #B5DDFF;
-    padding: 2rem 2rem 0 2rem;
     line-height: 1.5rem;
     border-radius: 50px;
 }
@@ -363,6 +361,10 @@ footer {
     header ul {
         display: flex;
         list-style-type: none;
+    }
+
+    header a {
+        text-decoration: none;
     }
 
     header li {
