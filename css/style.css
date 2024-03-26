@@ -67,8 +67,6 @@ img {
     height: 100%;
 }
 
-.debug .strategic-planning,
-.debug .content-planning,
 .debug .testimonials,
 .debug .content-testimonials,
 .debug .card-testimonials,
@@ -145,7 +143,6 @@ header .bg-white {
 
 /************* CSS SECTION STRATEGIC PLANNING *************/
 .strategic-planning {
-    padding: 4rem 2rem;
     color: white;
     line-height: 1.5rem;
 }
@@ -162,6 +159,13 @@ header .bg-white {
 .strategic-planning .pdn-0 {
     padding: 0;
 }
+
+.strategic-planning .content-planning,
+.strategic-planning .content-planning > div {
+    padding: 0;
+}
+
+
 
 .strategic-planning span.circle {
     display: inline-block;
@@ -381,6 +385,17 @@ footer {
 
     .strategic-planning .flex {
         flex-direction: row;
+    }
+
+    .strategic-planning h2 {
+        padding-top: 15rem;
+    }
+    .strategic-planning .bg-white {
+        margin-top: 10rem;
+        margin-bottom: 2rem;
+    }
+    .strategic-planning .container {
+        padding: 0 7rem;
     }
 
     .testimonials .card-testimonials {
