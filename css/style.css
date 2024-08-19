@@ -68,6 +68,7 @@ body {
 
 img {
     width: 100%;
+    object-fit: cover;
 }
 
 /********************** CONTAINER PER MOBILE E TABLET ********/
@@ -170,16 +171,19 @@ header li {
     padding: 0;
 }
 
-.strategic-planning span.circle {
-    display: inline-block;
+.strategic-planning div.circle {
     background-color: #9792E4;
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
 }
 
-.strategic-planning span.circle i {
-    transform: translate(-30%, -20%);
+.strategic-planning div i {
+    vertical-align: bottom;
+    padding: 0;
 }
 /************* FINE CSS SECTION STRATEGIC PLANNING *************/
 
